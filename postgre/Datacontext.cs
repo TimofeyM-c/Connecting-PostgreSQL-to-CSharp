@@ -15,7 +15,7 @@ namespace postgre
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Students;Username=postgres;Password=Pro100sme9!");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Students;Username=postgres;Password=Password");
         }
     }
 }
